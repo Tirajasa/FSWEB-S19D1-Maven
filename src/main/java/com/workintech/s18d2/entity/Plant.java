@@ -20,7 +20,7 @@ public class Plant {
     private long id;
 
     @Column(name="name")
-    @NotNull("name cant be null")
+    @NotNull(message = "name cant be null")
     @Size(min = 3,max = 45,message = "name size must be between 3 to 45")
     private String name;
 

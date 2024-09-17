@@ -10,7 +10,6 @@ import org.springframework.stereotype.Repository;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Repository
 @Table(name="manav",schema="fsweb")
 public class Fruit extends Plant {
 
