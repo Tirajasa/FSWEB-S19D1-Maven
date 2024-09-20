@@ -14,7 +14,7 @@ import org.springframework.stereotype.Repository;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name="manav",schema="fsweb")
+@Table(name="vegetable",schema="fsweb")
 public class Vegetable extends Plant {
 
     @Column(name = "is_grown_on_tree")

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name="manav",schema="fsweb")
+@Table(name="fruit",schema="fsweb")
 public class Fruit extends Plant {
 
    @Column(name = "fruit_type")

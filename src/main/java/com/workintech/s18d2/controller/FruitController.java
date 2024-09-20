@@ -43,7 +43,7 @@ public class FruitController {
     public Fruit save(@Validated @RequestBody Fruit fruit){
         return fruitService.save(fruit);
     }
-    @DeleteMapping
+    @DeleteMapping("/{id}")
     public Fruit delete(@NotNull @Positive @PathVariable Long id){
       return fruitService.delete(id);
     }
